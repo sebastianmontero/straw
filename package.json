@@ -1,49 +1,49 @@
 {
-  "name": "straw",
-  "description": "Realtime processing framework",
-  "version": "0.4.1",
-  "homepage": "https://github.com/simonswain/straw",
-  "author": {
-    "name": "Simon Swain",
-    "email": "simon@simonswain.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/simonswain/straw.git"
-  },
-  "bugs": {
-    "url": "https://github.com/simonswain/straw/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/simonswain/straw/blob/master/LICENSE-MIT"
-    }
-  ],
-  "main": "lib/straw",
-  "engines": {
-    "node": ">= 5.11.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "async": "^2.0.1",
-    "lodash": "^4.13.1",
-    "redis": "^2.6.2",
-    "winston": "^2.2.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-nodeunit": "^1.0.0",
-    "nodeunit": "^0.9.1"
-  },
-  "keywords": [
-    "stream",
-    "realtime",
-    "parallel",
-    "dataflow",
-    "reactive"
-  ]
+    "name": "@smontero/straw",
+    "description": "Realtime processing framework",
+    "version": "0.4.3",
+    "homepage": "https://github.com/simonswain/straw",
+    "author": {
+        "name": "Simon Swain",
+        "email": "simon@simonswain.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/simonswain/straw.git"
+    },
+    "bugs": {
+        "url": "https://github.com/simonswain/straw/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/simonswain/straw/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "lib/straw",
+    "engines": {
+        "node": ">= 5.11.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "async": "^2.0.1",
+        "lodash": "^4.13.1",
+        "redis": "^2.6.2",
+        "winston": "^2.2.0"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-contrib-nodeunit": "^1.0.0",
+        "nodeunit": "^0.9.1"
+    },
+    "keywords": [
+        "stream",
+        "realtime",
+        "parallel",
+        "dataflow",
+        "reactive"
+    ]
 }
