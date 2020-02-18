@@ -281,6 +281,8 @@ messages being consumed once the current message on each node is
 finished.
 
 `#purge` clears all queued messages from the topology's pipes.
+
+`#purgeAppItems` if true clears keys specified by the purgeKeys option of the format "redis.prefix:purgeKey
 `#purgeKeys` clears specified keys of the format "redis.prefix:purgeKey"
 
 `#stats(callback(err,data){})` will provide real-time stats on the
